@@ -22,7 +22,7 @@ for (let i = 0; i < phrases.length; i++) {
            footnote.textContent = footnotes[i];
            footnote.style = "font-style: italc; font-size: 1.2em;";
 
-           let closeButton = document.creatElement("input");
+           let closeButton = document.createElement("input");
            closeButton.type = "button";
            closeButton.value = "Close Footnote";
            closeButton.style = "display: block; margin: 10px auto;";
