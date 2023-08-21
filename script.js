@@ -18,7 +18,7 @@ for (let i = 0; i < phrases.length; i++) {
            let phrase = document.createElement("h1");
            phrase.textContent = this.textContent; 
 
-           let footnote = document.createElement("h1");
+           let footnote = document.createElement("p");
            footnote.textContent = footnotes[i];
            footnote.style = "font-style: italc; font-size: 1.2em;";
 
