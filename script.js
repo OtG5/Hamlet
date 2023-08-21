@@ -24,7 +24,7 @@ for (let i = 0; i < phrases.length; i++) {
 
            let closeButton = document.creatElement("input");
            closeButton.type = "button";
-           closeButton.value = "Close Footnote"
+           closeButton.value = "Close Footnote";
            closeButton.style = "display: block; margin: 10px auto;";
 
            let popup = window.open("", "footnote", "width=300, height=200, top=100, left=100");
